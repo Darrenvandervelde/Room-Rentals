@@ -1,7 +1,9 @@
 # Room-Rentals
 UI / UX for Room Rentals Page for Booking. 
 
-![ScreenShot]()
+![ScreenShot](Screenshot.png)
+
+[View live Demo](https://room-rentals-nu.vercel.app/)
 
 ## Overview
 
