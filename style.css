@@ -1,0 +1,126 @@
+/* Reset / base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    height: 90vh;
+    background: url("https://mybeachgetaways.com/wp-content/uploads/2021/12/area-orange-beach.jpg")
+        center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+/* Dark overlay */
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Hero content */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    margin-bottom: 30px;
+}
+
+/* Search form */
+.search-form {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.search-form input {
+    height: 50px;
+    border-radius: 8px 0 0 8px;
+}
+
+.search-form button {
+    height: 50px;
+    border-radius: 0 8px 8px 0;
+}
+
+/* FEATURED ROOMS */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-text {
+    color: #6c757d;
+}
+
+/* Buttons */
+.btn-outline-primary {
+    border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 60px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .hero {
+        height: 70vh;
+    }
+
+    .search-form {
+        width: 100% !important;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-form input,
+    .search-form button {
+        border-radius: 8px;
+        width: 100%;
+    }
+}
