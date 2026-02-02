@@ -42,12 +42,11 @@ This project serves as a strong frontend foundation for real-world accommodation
 ```
 Room-Rentals/
 │
-├── index.html        # Main landing page
-├── css/
-│   └── style.css     # Main stylesheet
-├── images/           # Images and assets
-├── Screenshot.png    # Project preview image
-└── README.md         # Project documentation
+├── index.html
+├── style.css
+├── Screenshot.png
+├── License
+└── README.md
 ```
 
 ---
